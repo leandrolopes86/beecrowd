@@ -2,20 +2,27 @@ using System;
 
 class beecrowd1096
 {
-
     static void Main(string[] args)
     {
 
-        int v, i = 1, x = 1, z = 60;
+        int[] vet = { 7, 6, 5 };
 
-        while (i <= 13)
+        int[] vet2 = new int[15];
+
+        for (int i = 1; i < 10; i = i + 2)
         {
-            v = x;
-            x = x + 3;
-            i++;
+            int j = 0;
 
-            Console.WriteLine("I={0} J={1}", v, z);
-            z -= 5;
+            vet2[i] = i;
+
+            Console.WriteLine("I={0} J={1}", vet2[i], vet[j]);
+            j++;
+            Console.WriteLine("I={0} J={1}", vet2[i], vet[j]);
+            j++;
+            Console.WriteLine("I={0} J={1}", vet2[i], vet[j]);
+
         }
+
     }
+
 }
