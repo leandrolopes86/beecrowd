@@ -15,7 +15,7 @@ class beecrowd1078
 
         foreach (int divisor in divisores)
         {
-            foreach (int dividendo in dividendo)
+            foreach (int dividendo in dividendos)
             {
 
                 long longResult = Math.BigMul(dividendo, divisor);
